@@ -13,7 +13,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 	line-height: 1.5em;
-	font-size:14px;
+	font-size:16px;
 	font-family: Helvetica, Arial, sans-serif;
 	color:#fff;
 	color:rgba(255,255,255,.8); 
@@ -142,7 +142,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	font-weight:normal;
 	font-size:7em;
 	margin-bottom:15px; 
-	color:#FDF9F4; 
+	color:#fff !important; 
 	line-height:1em;
 }
 .subtitle { 
@@ -298,8 +298,8 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 /*                   Inverted theme                        */
 /***********************************************************/
 .theme-invert { 	
-	color:#222;
-	color:rgba(0,0,0,.8); 
+	color:#fff;
+	color:rgba(255,255,255,.8);
  }
 .theme-invert a { 
 	color:#000;
@@ -311,10 +311,10 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	color:#fff;
 }
 .theme-invert .btn-link {
-	color:rgba(0,0,0,.8);
+	color:#fff;
 }
 .theme-invert .btn-link:hover, .theme-invert .btn-link:focus, .theme-invert .btn-link:active {
-	color:#000
+	color:#fff
 }
 .theme-invert .navbar-toggle {
 	background: rgba(0, 0, 0, 0.12);
